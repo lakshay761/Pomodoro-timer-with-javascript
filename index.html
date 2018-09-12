@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">">
+
+<head>
+  <meta charset="UTF-8">
+  <title>timer</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="back">
+  <h1 class="text-center head">Pomodoro Timer</h1>
+  <div class="container row">
+   <div class="col-md-6" id="div1">
+     <button onclick="bplus()"class="btn floating-box a1">+</button>
+     <h3 class="floating-box a1">Break Time</h3>
+     <button onclick="bminus()"class="btn floating-box a1">-</button>
+     <h3 class="a1"id="btime"></h3>
+   </div>
+   <div class="col-md-6" id="div2"> 
+     <button onclick="sminus()" class=" btn floating-box">-</button>
+     
+     <h3 class="floating-box">Session Time</h3>
+     <button onclick="splus()" class="btn floating-box">+</button>
+     <h3 id="stime">5</h3>
+</div>
+  </div>
+  <div id="session">
+    <button onclick="thisIsIt()" id ="start"class="btn btn-default">Start Timer</button>
+    <h2 id="time"></h2>
+    <h2 id="process">Set Session Time and Break Time</h2>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
